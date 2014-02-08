@@ -275,11 +275,11 @@ public class FileConverter {
 				}
 				author.setText(authorString.substring(0, authorString.length() - 2));
 			} else {
-				author.setText("N/A");
+				author.setText("FNA");
 			}
 			
 			Element date = new Element("date");
-			date.setText("N/A");
+			date.setText("2014");
 			meta.addContent(source);
 			addToOutput(source, author, nodes);
 			addToOutput(source, date);
